@@ -52,7 +52,7 @@
    $ git clone https://github.com/WellingtonFreitas/PayFlow-App.git
 
    - Entre no diretório:
-   $ cd payflow
+   $ cd PayFlow-App
    - Instale as dependências:
    $ flutter pub get
 
