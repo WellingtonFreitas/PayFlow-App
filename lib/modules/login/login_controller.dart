@@ -21,4 +21,10 @@ class LoginController {
       print(error);
     }
   }
+
+   void signOut(BuildContext context) async {
+    GoogleSignIn _googleSignIn = GoogleSignIn();
+     _googleSignIn.disconnect();
+     authController.setUser(context, null);
+  }
 }
